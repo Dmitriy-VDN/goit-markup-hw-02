@@ -1,10 +1,125 @@
-/* Применится ко всем абзацам на странице */
-p {
-  font-size: 24px;
+/* Общие настройки*/
+body {
+  color: #757575;
+  font-family: Roboto; sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
 }
 
-/* Применится ко всем ссылкам на странице */
-a {
+/* Стили для Sai bar*/
+
+/* Настройки сылок*/
+.link  {
+  color: #212121;
   text-decoration: none;
+  font-size: 14px;
+  }
+.link:hover,
+.link:focus {
+  color: #2196F3;
+  }
+.link-contacs{
+  color: #757575;
+  }
+
+/* Настройки Кнопок*/
+.custom-button {
+     background-color: #2196F3;
+     color: #FFFFFF;
 }
+.custom-button:hover,
+.custom-button:focus{
+     color: blue;
+     border: chartreuse;
+}
+.background-button {
+     background-color: #F5F4FA;
+     color: #212121;
+     font-size: 16px;
+}
+.background-button:hover,
+.background-button:focus{
+     color:  #FFFFFF;
+     border: #2196F3;
+}
+
+/* Настройки Логотипа*/
+.logo-header{
+  font-family: Raleway; sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+}
+.logo-blue{
+  color: #2196F3;
+}
+.logo-blakc{
+  color: black; 
+}
+.logo-white{
+  color: white;
+}
+
+/* Заголовки  */
+.hero-title {
+  color: #FFFFFF;
+  font-size: 44px;
+  }
+.section-title {
+  color: #212121;
+  font-size: 36px;
+}
+.section-subtitle {
+   color: #212121;
+   font-size: 14px;
+}
+
+.item-title {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.item-subtitle {
+   color: #212121;
+   font-size: 16px;
+}
+
+.subitem-title {
+   color: #212121;
+   font-size: 18px;
+}
+
+.footer-title-adres {
+    color: #FFFFFF;
+    font-size: 14px;
+} 
+
+.text-tehnokrik {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.text-footer {
+    font-size: 12px;
+}
+
+/* Настройки для контейнера ul */
+.list {
+  list-style: none; 
+}
+
+/* Стили для Footera*/
+/* Настройки сылок .footer-link-contact */
+.footer-link-contact {
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 14px;
+}
+
+
+
+
+
+
+
 
