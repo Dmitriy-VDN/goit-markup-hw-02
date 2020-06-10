@@ -6,7 +6,6 @@
 /* Общие настройки*/
 body {
   color: #757575;
-  font-family: Roboto; sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -36,8 +35,8 @@ body {
 }
 .custom-button:hover,
 .custom-button:focus{
-  color: blue;
-  border: chartreuse;
+  color: #2196F3;
+  border: #757575;
 }
 .background-button {
      background-color: #F5F4FA;
@@ -61,10 +60,10 @@ body {
   color: #2196F3;
 }
 .logo-blakc{
-  color: black; 
+  color: #111111; 
 }
 .logo-white{
-  color: white;
+  color: #FFFFFF;
 }
 
 /* Заголовки  */
