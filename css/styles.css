@@ -29,10 +29,14 @@ body {
   text-decoration: none;
   font-size: 14px;
   }
-.link:hover,
-.link:focus {
+.link:hover,.link:focus {
   color: #2196F3;
   }
+  
+  .active {
+  color: #2196F3;
+  }
+
 .link-contacs{
   color: #757575;
   }
