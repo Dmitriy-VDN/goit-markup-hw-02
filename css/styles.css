@@ -23,8 +23,6 @@ body {
 { background-color: #F5F4FA;
 }
 
-
-
 /* Настройки сылок*/
 .link  {
   color: #212121;
@@ -38,8 +36,7 @@ body {
 .link-contacs{
   color: #757575;
   }
-
-/* Настройки Кнопок*/
+ /* Настройки Кнопок*/
 .custom-button {
   background-color: #2196F3;
   color: #FFFFFF;
@@ -130,7 +127,7 @@ body {
 
 /* Стили для Footera*/
 .footer-stail {
-	background-color: #2F303A;
+  background-color: #2F303A;
 }
 
 /* Настройки сылок .footer-link-contact */
