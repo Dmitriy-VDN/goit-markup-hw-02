@@ -33,12 +33,12 @@ body {
   color: #2196F3;
   }
   
-  .active {
-  color: #2196F3;
-  }
-
 .link-contacs{
   color: #757575;
+  }
+
+  .active {
+  color: #2196F3;
   }
  /* Настройки Кнопок*/
 .custom-button {
