@@ -1,64 +1,68 @@
 :root {
 --font-logo: "Raleway";
 --font-tekst: "Robota";
+--main-color: #FFFFFF;
+--title-color: #212121;
+--link-color-activ: #2196F3;
+--o-text-overflow: #757575;
+--main-bc-color: #757575;
+--buttun-bt-color:#2196F3;
+--mask-border-outset: #F5F4FA;
 }
 
 /* Общие настройки*/
 
 body {
-  background-color: #E5E5E5;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   font-family: "Robota";
 }
 
-/* Стили для Sai bar*/
-.Sai-bar-header {
-  background-color: #FFFFFF;
+p {
+ color: var(--o-text-overflow);
 }
 
-/* Стили для Наша команда*/
-.stail-sechen
-{ background-color: #F5F4FA;
-}
 
 /* Настройки сылок*/
+
 .link  {
-  color: #212121;
+  color: var(--title-color);
   text-decoration: none;
   font-size: 14px;
   }
+
 .link:hover,.link:focus {
-  color: #2196F3;
+  color: var(--link-color-activ);
   }
   
 .link-contacs{
-  color: #757575;
+  color: var(--o-text-overflow);
   }
 
-  .active {
-  color: #2196F3;
-  }
- /* Настройки Кнопок*/
+.active {
+  color: var(--link-color-activ);
+}
+
+   /* Настройки Кнопок*/
 .custom-button {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  background-color: var(--buttun-bt-color);
+  color: var(--main-color);
 }
 .custom-button:hover,
 .custom-button:focus{
-  color: #2196F3;
-  border: #757575;
+  color: var(--title-color);
+  border:var(--o-text-overflow)
 }
 .background-button {
      background-color: #F5F4FA;
-     color: #212121;
+     color: var(--title-color);
      font-size: 16px;
 }
 .background-button:hover,
 .background-button:focus{
-     color:  #FFFFFF;
-     border: #2196F3;
+     color:  var(--main-color);
+     border: var(--link-color-activ);
 }
 /* Настройки Логотипа*/
 .logo-header{
@@ -68,55 +72,58 @@ body {
   font-size: 26px;
 }
 .logo-blue{
-  color: #2196F3;
+  color: var(--link-color-activ)
 }
 .logo-blakc{
-  color: #111111; 
-}
-.logo-white{
-  color: #FFFFFF;
+  color: var(--title-color);
 }
 
+.logo-white{
+  color: var(--main-color);
+}
 /* Заголовки  */
+
 .hero-title {
-  color: #FFFFFF;
+  color: var(--main-color);
   font-size: 44px;
+  background-color: var(--main-bc-color);
   }
+
 .section-title {
-  color: #212121;
+  color: var(--title-color);
   font-size: 36px;
 }
 .menu-partfolio {
   display: none;
-
 }
 
 .section-subtitle {
-   color: #212121;
+   color: var(--title-color);
    font-size: 14px;
 }
 
 .item-title {
-    color: #FFFFFF;
+    color: var(--main-color);
     font-size: 14px;
+    background-color: var(--main-bc-color);
 }
 
 .item-subtitle  {
-   color: #212121;
+  color: var(--title-color);
    font-size: 16px;
 }
 
 .subitem-title {
-   color: #212121;
+   color: var(--title-color);
    font-size: 18px;
 }
 .footer-title-adres {
-    color: #FFFFFF;
+    color: var(--main-color);
     font-size: 14px;
 } 
 
 .text-tehnokrik {
-    color: #FFFFFF;
+    color: var(--main-color);
     font-size: 18px;
 }
 
