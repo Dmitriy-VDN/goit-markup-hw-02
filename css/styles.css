@@ -1,12 +1,12 @@
 :root {
 --font-logo: "Raleway";
---font-tekst: "Robota";
+--font-tekst: "Roboto";
 --main-color: #FFFFFF;
 --title-color: #212121;
 --link-color-activ: #2196F3;
 --o-text-overflow: #757575;
 --main-bc-color: #757575;
---buttun-bt-color:#2196F3;
+--link-color-activ:#2196F3;
 --mask-border-outset: #F5F4FA;
 }
 
@@ -16,13 +16,12 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  font-family: "Robota";
+  font-family: "Roboto";
 }
 
 p {
  color: var(--o-text-overflow);
 }
-
 
 /* Настройки сылок*/
 
@@ -45,24 +44,34 @@ p {
 }
 
    /* Настройки Кнопок*/
+
+   /* Первая кнопка*/
 .custom-button {
-  background-color: var(--buttun-bt-color);
   color: var(--main-color);
-}
+  text-decoration: none; 
+  user-select: none; 
+  background: var(--link-color-activ);
+  }
+
 .custom-button:hover,
-.custom-button:focus{
+.custom-button:focus,
+.custom-button:active{
   color: var(--title-color);
-  border:var(--o-text-overflow)
-}
+  border:var(--main-bc-color);
+ }
+
+ /*Остальные кнопки*/
 .background-button {
      background-color: #F5F4FA;
      color: var(--title-color);
      font-size: 16px;
 }
+
 .background-button:hover,
 .background-button:focus{
      color:  var(--main-color);
      border: var(--link-color-activ);
+     background: var(--link-color-activ);
 }
 /* Настройки Логотипа*/
 .logo-header{
@@ -125,6 +134,12 @@ p {
 .text-tehnokrik {
     color: var(--main-color);
     font-size: 18px;
+    background-color: var(--link-color-activ);
+}
+
+.text-tehnokrik-old{
+color: var(--main-bc-color);
+font-size: 16px;
 }
 
 .text-footer {
